@@ -1,0 +1,9 @@
+# Configuração de finais de linha padrão Linux (LF)
+* text=auto eol=lf
+
+# Binários
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary

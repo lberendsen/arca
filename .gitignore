@@ -1,0 +1,36 @@
+# Diretórios e artefatos de compilação
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+
+# Executáveis gerados
+arca
+xos-arca
+acerto-album
+teste-*
+
+# Bancos de dados e dados locais de execução
+*.sqlite
+*.sqlite-journal
+*.db
+*.log
+/var/
+/tmp/
+
+# Segredos, tokens e chaves privadas
+discogs-token
+*.key
+*.pem
+.env
+
+# Arquivos de IDE e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
